@@ -1,0 +1,32 @@
+h1{
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* da sklonimo tacke */
+ul{
+    list-style-type: none;
+    
+}
+
+li{
+    color: rgb(104, 104, 104);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a{
+    color: rgb(104, 104, 104);
+    text-decoration: none;
+}
+
+a:hover{
+    color:black;
+    font-weight: bold;
+    
+}
+
+diV{
+    display:inline-block;
+}

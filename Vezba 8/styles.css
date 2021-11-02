@@ -1,0 +1,14 @@
+body{
+    height: 4000px;
+    background-color: royalblue;
+}
+
+    
+.stiki{
+    background-color: yellow;
+    width: 500px;
+    height: 50px;
+    position: sticky;
+    top: 100px;
+}
+

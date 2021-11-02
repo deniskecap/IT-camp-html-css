@@ -1,0 +1,60 @@
+body{
+    background-color:  #00060A;
+}
+
+.blok1{
+    background-color: #211f20;
+    border: 1px solid #867e82;
+    border-radius: 15px;
+    padding: 15px;
+    width: 400px;
+    height: 500px;
+    margin: 32px;
+    float: left;
+}
+
+h1{
+    color: white;
+    margin-left: 25px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+img{
+    border-radius: 15px;
+    width: 400px;
+    height: 250px;
+}
+
+.podnaslov{
+    color:#867e82;
+    margin-left: 25px;
+    font-family: sans-serif;
+}
+
+.ikona{
+    margin-left: 25px;
+    color:blue;
+    font-size: 50px;
+    
+}
+
+.ikona2{
+    color:#867e82 ;
+    font-size: 25px;
+    margin-left: 35px ;
+    margin-top: 15px;
+    padding-left: 30px;
+}
+
+.podnaslov3{
+    color:#867e82;
+    margin-left: 25px;
+    padding-top: 30px;
+    font-family: sans-serif;
+}
+
+
+
+
+
