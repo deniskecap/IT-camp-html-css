@@ -1,0 +1,63 @@
+
+.header{
+    width: 45%;
+    height: 20%;
+    margin: auto;
+    text-align: center;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.section{
+    
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.blok{
+   
+    width: 30%;
+    height: 40%;
+    border: 1px solid yellowgreen;
+}
+
+button{
+    font-size: 24px;
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: mediumslateblue;
+    color: white;
+    width: 150px;
+    height: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: blanchedalmond;
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.prvi, .drugi, .treci, .cetvrti{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.prvi{
+    background-color: blueviolet;
+}
+
+.drugi{
+    background-color: cadetblue;
+}
+
+.treci{
+    background-color: darkgoldenrod;
+}
+
+.cetvrti{
+    background-color: goldenrod;
+}

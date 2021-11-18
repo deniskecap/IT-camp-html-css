@@ -1,0 +1,62 @@
+
+
+.prvi{
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    background-color:gold;
+    /* POvezivanje sa animacijom */
+    animation: mojaAnimacija;  
+    /* Duzina trajanja animacije */
+    animation-duration:8s;
+    /* KOliko saceka pa pocne animacija */
+    animation-delay: 1s;
+    /* KOliko puta se ponavlja animacija (Infinite- beskonacno)*/
+    animation-iteration-count: infinite;
+    position: absolute;
+    
+}
+
+.drugi{
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(0, 4, 255);
+   
+    
+    animation: mojaAnimacija;  
+    animation-duration:8s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes mojaAnimacija{
+    /* Pocetak animacije (FROM)*/
+    0%{
+        top:0px;
+        left:0px;
+    }
+
+    25%{
+        top:0px;
+        left: 200px;
+    }
+    50%{
+        top:200px;
+        left: 200px;
+        
+    }
+
+    75%{
+        top: 200px;
+        left: 0px;
+
+    }
+
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
+

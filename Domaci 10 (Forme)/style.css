@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+}
+
+h1{
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px 0;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    width: 50%;
+    height: 1500px;
+    margin: auto;
+    padding: 35px;
+}
+
+.first{
+    width:96%;
+    height: 100%;
+    margin: auto;
+
+}
+
+.left{
+    width: 49%;
+    height: 60px;
+    display: inline-block;
+    margin: 10px 0;
+}
+.right{
+    width: 49%;
+    height: 60px;
+    float: right;
+    margin: 10px 0;
+}
+
+.left1{
+    width: 49%;
+    height: 49px;
+    display: inline-block;
+}
+.right1{
+    width: 49%;
+    height: 49px;
+    float: right;
+}
+.bs{
+    width: 30%;
+    height: 50px;
+}
+
+.int{
+    width: 60%;
+    height: 50px;
+    float: right;
+}
+
+.sp{
+    width: 30%;
+    height: 50px;
+}
+
+.pol{
+    width: 30%;
+    height: 30px;
+    float: left;
+}
+
+.nr{
+    border: 1px black solid;
+    height: 80px;
+}
+
+.polje {
+    width: 98%;
+    height: 30px;
+  }
+
+.float{
+    float: left;
+
+}
+
+.chekbox{
+    margin: 10px 0;
+}
+
+button {
+    border: none;
+    width: 55%;
+    padding: 15px 40px 15px 40px;
+    color: white;
+    background-color: black;
+    border-radius: 60px;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+  
+  button:hover {
+    background-color: rgb(31, 31, 31);
+  }
+
+
+
