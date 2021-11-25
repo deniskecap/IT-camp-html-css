@@ -15,12 +15,16 @@
     height: 100vh;
 }
 
-.one{
+.one, .four{
     background-color: orange;
     grid-column:1/5;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.four{
+    background-color: green;
 }
 
 .two{
@@ -39,10 +43,3 @@
     align-items: center;
 }
 
-.four{
-    background-color: green;
-    grid-column: 1/5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
