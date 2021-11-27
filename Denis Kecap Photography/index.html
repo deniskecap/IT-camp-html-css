@@ -15,7 +15,7 @@
                 <ul>
                   <li><a href="#home " style="color: #ffdd00;" >HOME</a></li>
                   <li><a href="#about">ABOUT ME</a></li>
-                  <li><a href="#">PORTFOLIO</a></li>
+                  <li><a href="#portfolio">PORTFOLIO</a></li>
                   <li><a href="#">BOOK NOW</a></li>
                   <li><a href="#">CONTACT</a></li>
                 </ul>
@@ -138,21 +138,112 @@
                                                 <h1>16</h1>
                                                 <p>Awards rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
                                               </div>
-                                 </div>
-                                
-                         
-
-                            
-                              <div class="progress">                               
-                              </div>
-               
-                        
+                                 </div>        
             </div>
           </div>
-
-
     </section>
+
+    <!-- PORTFOLIO -->
+
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio-main">
+          <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('wedding')"> Wedding</button>
+            <button class="btn" onclick="filterSelection('baby')"> Baby</button>
+            <button class="btn" onclick="filterSelection('fashion')"> Fashion</button>
+          </div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+
+    <!-- Wedding -->
+  <div class="column wedding">
+    <div class="content">
+      <img src="./file/home.jpg" alt="Wedding" style="width:100%">
+    </div>
+  </div>
+  <div class="column wedding">
+    <div class="content">
+      <img src="./file/home2.jpg" alt="Wedding" style="width:100%">
+    </div>
+  </div>
+  <div class="column wedding">
+    <div class="content">
+      <img src="./file/home.jpg" alt="Wedding" style="width:100%">
+    </div>
+  </div>
+  <div class="column wedding">
+    <div class="content">
+      <img src="./file/home2.jpg" alt="Wedding" style="width:100%">
+    </div>
+  </div>
+  <div class="column wedding">
+    <div class="content">
+      <img src="./file/home.jpg" alt="Wedding" style="width:100%">
+    </div>
+  </div>
+  <div class="column wedding">
+    <div class="content">
+      <img src="./file/home2.jpg" alt="Wedding" style="width:100%">
+    </div>
+  </div>
+ 
+ <!-- END WEDDING -->
+
+
+
+ <!-- Baby -->
+  
+
+  <div class="column baby">
+    <div class="content">
+      <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
+    </div>
+  </div>
+  <div class="column baby">
+    <div class="content">
+      <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
+
+    </div>
+  </div>
+  <div class="column baby">
+    <div class="content">
+      <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <!-- END BABY -->
+
+
+<!-- FASHION -->
+  <div class="column fashion">
+    <div class="content">
+      <img src="/w3images/people1.jpg" alt="People" style="width:100%">
+
+    </div>
+  </div>
+  <div class="column fashion">
+    <div class="content">
+      <img src="/w3images/people2.jpg" alt="People" style="width:100%">
+
+    </div>
+  </div>
+  <div class="column fashion">
+    <div class="content">
+      <img src="/w3images/people3.jpg" alt="People" style="width:100%">
+
+    </div>
+  </div>
+<!-- END Fashion -->
+</div>
+
+      </div>
+  </section>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./style.js"></script>
     <script>
       AOS.init();
     </script>
