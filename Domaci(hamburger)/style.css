@@ -1,0 +1,76 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+
+
+nav {
+    background-color: #333;  
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.navigation {
+    display: flex;
+}
+
+.navigation li, a{
+    text-decoration: none;
+    padding: 16px;
+    color: white;
+    font-size: 1rem;
+    display: block;
+} 
+  
+.navigation a:hover {
+    background-color: yellow;
+    color: black;
+  }
+  
+.navigation a.active {
+    background-color: yellow;
+    color: black;
+}
+
+.logo{
+    padding: 16px 16px;
+
+}
+
+.logo h1{
+      color: #ddd;
+      font-size: 2rem;
+  }
+
+.openavi{
+    font-size: 2rem;
+    margin: 16px;
+    display: none;
+    color: white;
+}
+
+
+
+  @media screen and (max-width: 700px) {
+      .navigation{
+          height: 100vh;
+          position:fixed ;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          transition: top 1s ease;
+          display: none;
+      }
+
+      .openavi{
+          display: block;
+      }
+
+
+}
